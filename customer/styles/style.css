@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Righteous', cursive;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body
+{
+
+}
+
+
+
+.main-wrapper
+{
+	width:100%;
+	height:auto;
+	margin:auto;
+	
+}
+.header-wrapper
+{
+	width:100%;
+	height:100px;
+	background: #fff;
+	border:1px solid red;
+}
+.header-wrapper img
+{
+	width:100px;
+	height: 100px;
+	float: left;
+}
+#navbar
+{
+	width:100%;
+	height:50px;
+	border:1px solid red;
+}
+
+#menu
+{
+	padding:0;
+	line-height:36px;
+	margin-top:5px;
+	float:left;
+}
+
+#menu li
+{
+	list-style: none;
+	display: inline;
+}
+
+#menu li a
+{
+	text-decoration:none;
+	margin:10px;
+	color:black;
+}
+
+#menu li a:hover
+{
+   color:orange;
+	transition:0.3s;
+}
+#form
+{
+	float:right;
+	line-height: 50px;
+	padding-right: 5px;
+}
+.section-wrapper
+{
+	width:100%;
+	height:auto;
+	border:1px solid red;
+}
+#left-section
+{
+	width:200px;
+
+	float:left;
+	border:1px solid pink;
+}
+
+#cats
+{ 
+		
+	text-align: ;
+	padding:10px;
+}
+
+#cats li
+{
+	list-style:none;
+  	padding: 5px;
+}
+
+#cats a 
+{
+	text-decoration:none;
+	font-size: 18px;
+	color:black;
+	
+	
+}
+
+#cats img 
+{
+	border:4px solid #efefef;
+}
+#cats a:hover
+{
+
+	color:orange;
+	transition:0.3s;
+}
+
+
+#right-section
+{
+	width:800px;
+	
+	float: right;
+	border:1px solid pink;
+}
+
+.footer
+{
+	width:100%;
+	height:100px;
+	clear:both;
+	border:1px solid red;
+
+}
+.footer h1
+{
+	padding:40px;
+	text-align:center;
+	font-size: 16px;
+
+}
+
+#sidebar-title
+{
+	padding:10px;
+	
+	font-size: 22px;
+	box-sizing:border-box;
+	background: #B8BFD4;
+	text-align: center;
+}
+
+ #headline
+{
+	width:780px;
+	height:35px;
+  padding:10px;
+  line-height: 35px;
+	float:right;
+	background:black;
+	
+}
+
+ #headline_content
+ {
+ 	float:right;
+ 
+
+ }
+
+ 
+#headline_content #gocart
+ {
+   text-decoration: none;
+   color:orange;
+ }
+
+
+ #product_box
+ {
+ 	width:780px;
+ 	float:left;
+   text-align: center;
+   margin-left: 30px;
+ 	
+ }
+ #product_box a
+ {
+ 	
+ 	margin-left:30px;
+ 	text-decoration:none;
+ }
+
+ #product_box button
+ {
+ 	
+ 	border-radius: 10px;
+ 	cursor: pointer;
+ 	padding:5px;
+
+ }
+#single_product
+ {
+ 	float:left;
+
+ 	padding: 10px;
+ }
+
+ #single_product img
+ {
+    margin-left:30px;
+ 	border:4px solid #efefef;
+ }

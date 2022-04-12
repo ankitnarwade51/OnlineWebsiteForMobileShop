@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cat2.xsl"?>
+<mobilemenu>
+<Mobile>
+    <name>Nokia 6</name>
+    <price>13,590</price>
+    <description>Color-Black,RAM-3GB,Camera-16Mp</description>
+    <available>Yes</available>
+</Mobile>
+<Mobile>
+    <name>Vivo v7</name>
+    <price>21,907</price>
+    <description>Color-Black,RAM-4GB,Camera-16Mp</description>
+    <available>Yes</available>
+</Mobile>
+<Mobile>
+    <name>Lenovo k3 Note</name>
+    <price>8999</price>
+    <description> Color-Black,RAM-2GB,Camera-13Mp</description>
+    <available>Yes</available>
+</Mobile>
+<Mobile>
+    <name>Sumsung Galaxy J7 Prime</name>
+    <price>13,990</price>
+    <description>Color-Black/Gold/White,RAM-3GB,Camera-13Mp</description>
+    <available>Yes</available>
+</Mobile>
+<Mobile>
+    <name>Intex Aqua Ace</name>
+    <price>$6.95</price>
+    <description>Color-Black/White,RAM-3GB,Camera-13Mp</description>
+    <available>Yes</available>
+</Mobile>
+</mobilemenu>

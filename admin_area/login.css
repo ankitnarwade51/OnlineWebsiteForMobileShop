@@ -1,0 +1,25 @@
+body
+{
+	background: #433346;
+}
+
+
+.login h2
+{
+	color:white;
+	margin-top: 250px;
+	margin-left: 400px;
+}
+
+
+form
+{
+	color:white;
+	margin-left: 500px;
+}
+
+#a_button
+{
+	border-radius: 10px;
+	cursor: pointer;
+}
